@@ -1,5 +1,6 @@
 *.pyc
 .coverage
+.idea
 .venv
 README.html
 dist/
