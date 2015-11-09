@@ -54,6 +54,6 @@ A minimal Django project is shipped to run the test suite. Try ``make coverage``
 License
 -------
 
-The code is copyright Bors Ltd and published under the GNU General Public License version 3.
+The code is copyright Bors LTD and published under the GNU General Public License version 3.
 
-The icons are placed in the public domain, see ``Tango`` for details.
+The icons are redistributed in the public domain, see ``Tango`` for details.
