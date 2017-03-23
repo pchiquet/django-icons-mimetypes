@@ -14,7 +14,11 @@
 #    You should have received a copy of the GNU General Public License
 #    along with django-icons-mimetypes.  If not, see <http://www.gnu.org/licenses/>.
 
-from urllib.parse import urljoin
+try:
+    from urllib.parse import urljoin
+except ImportError:
+    # Python 2 support
+    from urlparse import urljoin
 
 from django import template
 from django.template.base import Node
